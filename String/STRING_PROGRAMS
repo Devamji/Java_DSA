@@ -1,0 +1,11 @@
+A String is a non-primitive data type used to store a sequence of characters (text). It is immutable, meaning once created, it cannot be changed.
+
+Key Points:
+•	String is a class in java.lang package.
+•	Strings are objects, not primitive types.
+•	You can create a string using double quotes (" ").
+
+Why String is Immutable?
+•	Security: Used in class loading, file paths, network connections, etc.
+•	Thread Safety: Multiple threads can safely use strings.
+•	Performance: JVM can reuse string literals via String Pool.
