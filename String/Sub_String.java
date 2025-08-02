@@ -16,3 +16,4 @@ public class Sub_String {
         System.out.println(str.substring(0,5));
     }
 }
+// the is string
