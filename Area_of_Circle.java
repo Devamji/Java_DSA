@@ -1,7 +1,7 @@
 package Basic;
 
 import java.util.Scanner;
-
+// we know that the formula of area of circle is pi*radius*radius.
 public class Area_of_Circle {
     public static void main (String args[]){
         Scanner sc = new Scanner (System.in);
@@ -10,3 +10,4 @@ public class Area_of_Circle {
         System.out.println(area);
     }
 }
+
