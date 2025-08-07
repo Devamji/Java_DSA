@@ -2,7 +2,6 @@ package Basic;
 import java.util.*;
 public class Palanderom {
 
-        // public boolean ispalindrome (int x){
         //     if (x<0){
         //         return false;
         //     }
@@ -48,3 +47,4 @@ public class Palanderom {
         }
     }
 }    
+
