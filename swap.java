@@ -2,9 +2,9 @@ package Basic;
 import java.util.*;
 
 // temp , a , b 
-//temp = a
-// a = b
-// b = temp
+//temp <= a
+// a <= b
+// b <= temp
 
 public class swap {
     public static void swapno(int a , int b) {
@@ -23,4 +23,5 @@ public class swap {
         swapno(a, b);
     }
 }
+
 
