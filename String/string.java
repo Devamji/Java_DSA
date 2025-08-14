@@ -48,6 +48,8 @@ public class string {
        
         System.out.println(name.equals("enter the string to comparision::"+sc.next()));
 
+        // if we want to ignore the upper and lower case in the string then we use.
+        
         System.out.println(str.equalsIgnoreCase(str2));
 
         String m = "a";//ASIC value is 97
@@ -88,4 +90,5 @@ public class string {
         System.out.println(name1);
     }  
 }
+
 
