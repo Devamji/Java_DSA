@@ -56,14 +56,14 @@ public class string_methord_using_function {
         System.out.println("Ignore Case Equal? " + str.equalsIgnoreCase(other));
     }
 
-    // Function to demonstrate compareTo
+    // Function to use compareTo
     public static void printCompareTo() {
         String m = "a"; // 97
         String n = "A"; // 65
         System.out.println("CompareTo result (a vs A) :: " + m.compareTo(n));
     }
 
-    // Function to demonstrate indexOf & lastIndexOf
+    // Function to use indexOf & lastIndexOf
     public static void printIndexes(String str) {
         System.out.println("Index of 'v' in " + str + " :: " + str.indexOf("v"));
         String str3 = "deepak";
@@ -81,7 +81,7 @@ public class string_methord_using_function {
         System.out.println("Character at index 3 in " + str + " :: " + str.charAt(3));
     }
 
-    // Function to demonstrate concat
+    // Function to use concat
     public static void printConcat() {
         String a = "Devam";
         String b = "Mishra";
@@ -96,20 +96,18 @@ public class string_methord_using_function {
         System.out.println("Is '' empty? " + p.isEmpty());
     }
 
-    // Function to demonstrate join
+    // Function to use join
     public static void printJoin() {
         String name1 = String.join(" ", "Devam", "Mishra", "age", "is", "20");
         System.out.println("Join result :: " + name1);
     }
 
-    // Main function
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        // Input
         String name = inputString(sc);
 
-        // Call all functions
+        
         printLength(name);
         printCases(name);
         printTrim(name);
@@ -127,5 +125,6 @@ public class string_methord_using_function {
 
     }
 }
+
 
 
